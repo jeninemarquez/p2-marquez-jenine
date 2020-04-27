@@ -1,0 +1,76 @@
+/*Sitewide Styles*/
+
+* {
+    font-family: 'Muli', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 50%;
+}
+
+/*Navigation*/
+
+.sub-menu {
+
+}
+
+.condensed {
+
+}
+
+.donate {
+
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+
+}
+
+.jumbotron-headline {
+
+}
+
+.jumbotron-link {
+
+}
+
+/*About*/
+
+.about {
+
+}
+
+/*Scholarships*/
+
+.scholarships {
+
+}
+
+/*Support*/
+
+.support {
+
+}
+
+.events, .donate {
+
+}
+
+
+/*Quotes*/
+.quotes {
+
+}
+
+/*Footer*/
+footer {
+    
+}
+
