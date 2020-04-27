@@ -1,11 +1,12 @@
 /*Sitewide Styles*/
 
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Muli', sans-serif;
 }
 
 a {
-    color: black;
     text-decoration: none;
 }
 
@@ -13,32 +14,92 @@ a:hover {
     opacity: 50%;
 }
 
+h1, h2, h3 {
+    padding-bottom: 1.5%;
+}
+
+p {
+    padding-bottom: 3%;
+}
+
+.about, .scholarships, .quotes, footer {
+    padding: 5% 4%;
+    text-align: center;
+}
+
+nav, footer, .scholarships {
+    background-color: #2D79A5;
+    color: white;
+}
+
+.about, .support {
+    background-color: #EEF9FB;
+}
+
+.donate-nav, .about a, .scholarships a, .support a {
+    background-color: #A3D4F0;
+    color: black;
+    padding: 1% 2%;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
 /*Navigation*/
+nav {
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+}
+
+.main-nav-hide {
+    display: none;
+}
+
+.mobile-menu-show {
+    font-size: 3rem;
+}
 
 .sub-menu {
 
 }
 
 .condensed {
-
+ display: none;
 }
 
-.donate {
+.show {
+    display: flex;
+}
+
+.donate-nav {
 
 }
 
 /*Jumbotron*/
 
 .jumbotron {
-
+    padding: 3%;
+    background-image: url("images/beach.jpg");
+    background-size: cover;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .jumbotron-headline {
-
-}
-
-.jumbotron-link {
-
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 1px 2px 7px #666666;
 }
 
 /*About*/
@@ -55,22 +116,51 @@ a:hover {
 
 /*Support*/
 
+.support-image-block {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+
+.support h3 {
+    background-color: #2D79A5;
+    padding: 5% 1%;
+    align-items: flex-end;
+    transform: skewY(-3deg);
+    transform-origin: top left;
+    color: white;
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .support {
+    padding: 10%;
+    text-align: center;
+}
+
+.events {
+padding-bottom: 5%;
+}
+
+.donate {
 
 }
 
-.events, .donate {
 
-}
 
 
 /*Quotes*/
 .quotes {
-
+background-color: #71B4DA;
 }
 
 /*Footer*/
-footer {
-    
+footer a {
+    color: white;
+    padding: 0% 1.8%;
+    font-size: 2rem;
 }
+
 
