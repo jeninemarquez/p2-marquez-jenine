@@ -100,12 +100,23 @@ nav a {
 
 .jumbotron {
     padding: 3%;
-    background-image: url("images/beach.jpg");
     background-size: cover;
     min-height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.jumbotron-index {
+    background-image: url("images/beach.jpg");
+}
+
+.jumbotron-about {
+    background-image: url("images/beach-boy.jpg");
+}
+
+.jumbotron-learn {
+    background-image: url("images/float.jpg");
 }
 
 .jumbotron-headline {
@@ -120,6 +131,7 @@ nav a {
 .about {
 
 }
+
 
 /*Scholarships*/
 
@@ -161,9 +173,6 @@ padding-bottom: 15%;
 
 }
 
-
-
-
 /*Quotes*/
 .quotes {
 background-color: #71B4DA;
@@ -172,6 +181,50 @@ background-color: #71B4DA;
 .quotes h2 {
     padding-bottom: 0%;
 }
+
+/*About Page*/
+
+.about-tabs {
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 7% 0% 7%;
+}
+
+.about-tabs li {
+    list-style-type: none;
+}
+
+.about-text {
+    padding: 0% 7% 7% 7%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-text img {
+    padding: 8% 0%;
+}
+
+#jakes-story {
+
+}
+
+#jakes-story img {
+    max-height: 400px;
+}
+
+
+#our-mission {
+
+}
+
+#our-mission i {
+    color: #2D79A5;
+    font-size: 2.8rem;
+}
+
+#our-team {}
 
 /*Footer*/
 
@@ -185,6 +238,8 @@ footer a {
     padding: 0% 1.8%;
     font-size: 2rem;
 }
+
+/*Media Queries*/
 
 @media (min-width:768px){
 
