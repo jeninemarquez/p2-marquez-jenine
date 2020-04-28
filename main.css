@@ -186,15 +186,17 @@ background-color: #71B4DA;
 
 .about-tabs {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 6% 7% 0% 7%;
 }
 
-.about-tabs li {
+.about-tabs li, .learn-tabs li {
     list-style-type: none;
+    padding: 0% 4%;
+    white-space: nowrap;
 }
 
-.about-text {
+.about-text, .learn-text {
     padding: 0% 7% 7% 7%;
     text-align: center;
     display: flex;
@@ -202,7 +204,7 @@ background-color: #71B4DA;
     align-items: center;
 }
 
-.about-text img {
+.about-text img, .learn-text img {
     padding: 8% 0%;
 }
 
@@ -219,12 +221,46 @@ background-color: #71B4DA;
 
 }
 
-#our-mission i {
+#our-mission i, #safety-tips i {
     color: #2D79A5;
     font-size: 2.8rem;
 }
 
+#our-mission p {
+    padding-bottom: 10%;
+}
+
 #our-team {}
+
+/*Learn*/
+.learn-headline {
+    background-color: #EEF9FB;
+    padding: 7%;
+    text-align: center;
+}
+
+.learn-tabs {
+    display: flex;
+    justify-content: center;
+    padding: 6% 7%;
+}
+
+.learn-text {
+
+}
+
+#statistics {
+
+}
+
+#safety-training {
+
+}
+
+#safety-tips {
+
+}
+
 
 /*Footer*/
 
